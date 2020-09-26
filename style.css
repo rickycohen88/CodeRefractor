@@ -1,4 +1,4 @@
-/*craetes a boarder-box around the whole page*/
+/*creates a boarder-box around the whole page*/
 * {
     box-sizing: border-box;
     padding: 0;
