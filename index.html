@@ -4,26 +4,31 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>
     <title>Horiseon. An Online Image Company</title>
     <!--added a hover effect that changes the font size, added class to the links in header-->
     <style>
-        a.fontsize:hover, a.fontsize:active{font-size: 150%}
+        a.fontsize:hover, a.fontsize:active{font-size: 150%;}
     </style>
+    
 </head>
 
 <body>
+    
+    <button onclick="topFunction()" id="backtotop" title="Backtotop">Back to top.</button>
+   
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1><!--span uses the class seo to change the s.e.o. to a different color-->
         <div><!--this div is dedicated to the links which link to the id tags on the page. the id tags are located in the content div-->
             <ul>
                 <li>
-                    <a class="fontsize" href="#search-engine-optimization">Search Engine Optimization</a>
+                    <a class="fontsize" href="#search-engine-optimization" alt="Link to Search-Engine-Optimization section.">Search Engine Optimization</a>
                 </li>
                 <li>
-                    <a class="fontsize" href="#online-reputation-management">Online Reputation Management</a>
+                    <a class="fontsize" href="#online-reputation-management" alt=" Link to online-reputation-management section.">Online Reputation Management</a>
                 </li>
                 <li>
-                    <a class="fontsize" href="#social-media-marketing">Social Media Marketing</a>
+                    <a class="fontsize" href="#social-media-marketing" alt="Link to social-media-marketing section.">Social Media Marketing</a>
                 </li>
             </ul>
         </div>
@@ -33,7 +38,7 @@
    
     <div class="content">
         <div id="search-engine-optimization" class="content-block"> 
-            <img src="images/search-engine-optimization.jpg" class="content-left-img" alt="a desk with a computer and organized office supplies. A notebook has S.E.O. in the center with  concepts surrounding. they list Content,Read ME, Back Link,Line, Building, Social media, mobile compatability" /> 
+            <img src="images/search-engine-optimization.jpg" class="content-left-img" alt="A desk with a computer and organized office supplies. A notebook has S.E.O. In the center with concepts surrounding. They list Content, Read ME, Back Link, Line Building, Social media, Mobile compatability" /> 
                 <h2 class="content-h2">Search Engine Optimization</h2>
                     <p>
                         The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. 
@@ -42,7 +47,7 @@
         </div>
         
         <div id="online-reputation-management" class="content-block">
-            <img src="images/online-reputation-management.jpg" class="content-right-img" alt="A person sits at a desk holding a cell phone. a lap top in front of them on a desk. Reputation and a graphic chart is on the computer screen"/>
+            <img src="images/online-reputation-management.jpg" class="content-right-img" alt="A person sits at a desk holding a cell phone. a lap top is in front of them on a desk. Reputation and a graphic chart is on the computer screen."/>
                 <h2 class="content-h2">Online Reputation Management</h2>
                     <p>
                         The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. 
@@ -51,7 +56,7 @@
         </div>
         
         <div id="social-media-marketing" class="content-block">
-            <img src="images/social-media-marketing.jpg" class="content-left-img" alt="six people sit around a table. a whole lot of technology and social media icons are spread unorganized across the table"/>
+            <img src="images/social-media-marketing.jpg" class="content-left-img" alt="Six people sit around a table. A whole lot of technology and social media icons are spread unorganized across the table."/>
                 <h2 >Social Media Marketing</h2>
                     <p>
                         Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, 
@@ -63,7 +68,7 @@
     <div class="benefits"><!--entire div is floated right-->
         <div class="benefit-block">
             <h3>Lead Generation</h3>
-                <img src="images/lead-generation.png" class="benefit-img" alt=" the sun is comming up over the horrizon.an arrow  points toward a dollar sign away from the sun"/>
+                <img src="images/lead-generation.png" class="benefit-img" alt=" The sun is comming up over the horrizon. An arrow points toward a dollar sign away from the sun"/>
                     <p>
                         Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                     </p>
@@ -71,7 +76,7 @@
         
         <div class="benefit-block">
             <h3>Brand Awareness</h3>
-                <img src="images/brand-awareness.png" class="benefit-img" alt="silhouette of a persons body with a lightbulb for a head"/>
+                <img src="images/brand-awareness.png" class="benefit-img" alt="Silhouette of a persons body with a lightbulb for a head"/>
                     <p>
                         Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                     </p>
