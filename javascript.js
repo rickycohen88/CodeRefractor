@@ -1,5 +1,5 @@
 
-//Get the button
+//Get the scroll back to top button
 var mybutton = document.getElementById("backtotop");
 
 

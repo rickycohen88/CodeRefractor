@@ -7,20 +7,17 @@
     <script type="text/javascript" src="javascript.js"></script>
     <title>Horiseon. An Online Image Company</title>
     <!--added a hover effect that changes the font size, added class to the links in header-->
-    <style>
-        a.fontsize:hover, a.fontsize:active{font-size: 150%;}
-    </style>
-    
+   
 </head>
 
 <body>
     
-    <button onclick="topFunction()" id="backtotop" title="Backtotop">Back to top.</button>
+    
    
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1><!--span uses the class seo to change the s.e.o. to a different color-->
-        <div><!--this div is dedicated to the links which link to the id tags on the page. the id tags are located in the content div-->
-            <ul>
+    <section id="header">
+        <h1>Hori<span id="seo">seo</span>n</h1><!--span uses the class seo to change the s.e.o. to a different color-->
+        <nav id="nav"><!--this div is dedicated to the links which link to the id tags on the page. the id tags are located in the content div-->
+            <ul id="top-links">
                 <li>
                     <a class="fontsize" href="#search-engine-optimization" alt="Link to Search-Engine-Optimization section.">Search Engine Optimization</a>
                 </li>
@@ -31,8 +28,8 @@
                     <a class="fontsize" href="#social-media-marketing" alt="Link to social-media-marketing section.">Social Media Marketing</a>
                 </li>
             </ul>
-            
-            <ul>
+            <br>
+            <ul id="bottom-links">
                 <li>
                     <a class="fontsize" href="#lead" alt="link to section on lead(s) generation.">Lead-Generation</a>
                 </li>
@@ -43,72 +40,75 @@
                     <a class="fontsize" href="#cost" alt="link to cost management section">Cost-Management</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </section>
     
-    <div class="hero"></div><!--hero is the main image that covers the screen-->
+    <div class="hero" alt=""></div><!--hero is the main image that covers the screen-->
    
-    <div class="content">
-        <div id="search-engine-optimization" class="content-block"> 
+    <section class="content"><!-- start of main body content-->
+        <article id="search-engine-optimization" class="content-block"> 
             <img src="images/search-engine-optimization.jpg" class="content-left-img" alt="A desk with a computer and organized office supplies. A notebook has S.E.O. In the center with concepts surrounding. They list Content, Read ME, Back Link, Line Building, Social media, Mobile compatability" /> 
                 <h2 class="content-h2">Search Engine Optimization</h2>
                     <p>
                         The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. 
                         Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
                     </p>
-        </div>
+        </article>
         
-        <div id="online-reputation-management" class="content-block">
+        <article id="online-reputation-management" class="content-block">
             <img src="images/online-reputation-management.jpg" class="content-right-img" alt="A person sits at a desk holding a cell phone. a lap top is in front of them on a desk. Reputation and a graphic chart is on the computer screen."/>
                 <h2 class="content-h2">Online Reputation Management</h2>
                     <p>
                         The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. 
                         Online Reputation Management gives you the control over what potential customers see when they search for your business.
                     </p>
-        </div>
+        </article>
         
-        <div id="social-media-marketing" class="content-block">
+        <article id="social-media-marketing" class="content-block">
             <img src="images/social-media-marketing.jpg" class="content-left-img" alt="Six people sit around a table. A whole lot of technology and social media icons are spread unorganized across the table."/>
                 <h2 >Social Media Marketing</h2>
                     <p>
                         Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, 
                         using analytics to find the right markets and increase your lead generation.
                     </p>
-        </div>
-    </div>
+        </article>
+    </section>
     
-    <div class="benefits"><!--entire div is floated right-->
-        <div class="benefit-block" id="lead">
+    <section class="benefits"><!--entire div is floated right-->
+        <article class="benefit-block" id="lead">
             <h3>Lead Generation</h3>
                 <img src="images/lead-generation.png" class="benefit-img" alt=" The sun is comming up over the horrizon. An arrow points toward a dollar sign away from the sun"/>
                     <p>
                         Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                     </p>
-        </div>
+        </article>
         
-        <div class="benefit-block" id="brand">
+        <article class="benefit-block" id="brand">
             <h3>Brand Awareness</h3>
                 <img src="images/brand-awareness.png" class="benefit-img" alt="Silhouette of a persons body with a lightbulb for a head"/>
                     <p>
                         Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                     </p>
-        </div>
+        </article>
         
-        <div class="benefit-block" id="cost">
+        <article class="benefit-block" id="cost">
             <h3>Cost Management</h3>
                  <img src="images/cost-management.png" class="benefit-img" alt="A gear with money revolving around it"/>
                     <p>
                         As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
                     </p>
-        </div>
-    </div>
+        </article>
+    </section>
    
-    <div class="footer">
+    <section class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
+            &copy; 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
         </p>
-    </div>
+    </section>
+
+    <button onclick="topFunction()" id="backtotop" title="Backtotop">Back to top.</button><!--this is the scroll to top button that appears when the user scrolls down-->
 </body>
 
 </html>
