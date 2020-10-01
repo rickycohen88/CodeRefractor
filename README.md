@@ -27,9 +27,11 @@ wants and needs in the community.
 This page could be used as a starting place for making a web page accecible.
 
 ### Instalation
-the three files are fairly self explanitory and the references are already there<br>
-make sure you grab the images aswell and your good to go.<br>
-
+To make the project work you will need -
+* an editor or ide that will save file in the proper types*(html,css,javascript)* <br>
+`Visual Studio or Visual Studio Code` will work great.
+* using a version control system you can fork and clone my repo, you could also<br>
+huts download the files directly for git hub.
 
 ### Deployed website and screenshots
 ![Image](images/title.JPG "website title")
@@ -39,9 +41,9 @@ make sure you grab the images aswell and your good to go.<br>
 [Link](https://rickycohen88.github.io/CodeRefractor/)
 
 ### Credits
--Trillogy Education
--Webaim.org
--nvaccess
+* Trillogy Education
+* Webaim.org
+* nvaccess
 
 ### Contributing
 Pull requests are welcome. For major changes,<br>

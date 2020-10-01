@@ -18,8 +18,8 @@ a {
 }
 /*adds hover affect to links*/
 a:hover {
-    background-color: #555;
-    font-size: 150%;
+    background-color: #55555500;
+    font-size: 125%;
     z-index: 9;
 }
 
