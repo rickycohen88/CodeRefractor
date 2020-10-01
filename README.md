@@ -35,9 +35,9 @@ make sure you grab the images aswell and your good to go.<br>
 [Link](https://rickycohen88.github.io/CodeRefractor/)
 
 ### Credits
-Trillogy Education
-Webaim.org
-nvaccess
+-Trillogy Education
+-Webaim.org
+-nvaccess
 
 ### Contributing
 Pull requests are welcome. For major changes,<br>
