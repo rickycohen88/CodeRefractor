@@ -17,11 +17,13 @@ wants and needs in the community.
 
 ![Image](https://img.shields.io/badge/languages-html%20%7C%20css%20%7C%20javascript-blue)<br>
 ![Image](https://img.shields.io/website?down_color=red&down_message=Down&style=plastic&up_color=Lightgreen&up_message=Up&url=https%3A%2F%2Frickycohen88.github.io%2FCodeRefractor%2F)<br>
-![Discord Banner 2](https://discordapp.com/api/guilds/[568508644669390905]/widget.png?style=banner2)<br>
-<img src="https://discordapp.com/api/guilds/[568508644669390905]/widget.png?style=banner1" alt="Discord Banner 1"/>
+[![Support Server](https://img.shields.io/discord/758849764959191071.svg?color=7289da&label=UofMcohort&logo=discord&style=flat-square)](https://discord.gg/HaWKVB6)<br>
+[![Support Server](https://img.shields.io/discord/568508644669390905.svg?color=7289da&label=Personal&logo=discord&style=pastic)](https://discord.gg/Sj6HrJQ)
 
 
-### usage 
+
+
+### Usage 
 This page could be used as a starting place for making a web page accecible.
 
 ### Instalation
