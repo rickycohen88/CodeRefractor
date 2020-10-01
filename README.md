@@ -31,7 +31,7 @@ To make the project work you will need -
 * an editor or ide that will save file in the proper types*(html,css,javascript)* <br>
 `Visual Studio or Visual Studio Code` will work great.
 * using a version control system you can fork and clone my repo, you could also<br>
-huts download the files directly for git hub.
+just download the files directly for git hub.
 
 ### Deployed website and screenshots
 ![Image](images/title.JPG "website title")
